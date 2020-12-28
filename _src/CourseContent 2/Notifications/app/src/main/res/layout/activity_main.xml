@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSend1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="John Doe"/>
+
+    <Button
+            android:id="@+id/btnSend2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Jane Doe"/>
+
+    <Button
+            android:id="@+id/btnSend3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="John Smith"/>
+
+    <Button
+            android:id="@+id/btnSend4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Jane Smith"/>
+
+    <Button
+            android:id="@+id/btnSettings1"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Notification Settings John Doe"/>
+
+    <Button
+            android:id="@+id/btnSettings2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Notification Settings Jane Doe"/>
+
+    <Button
+            android:id="@+id/btnSettings3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Notification Settings Jon Smith"/>
+
+    <Button
+            android:id="@+id/btnSettings4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Notification Settings Jane Smith"/>
+
+</LinearLayout>
